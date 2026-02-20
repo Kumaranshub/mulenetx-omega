@@ -1,0 +1,2 @@
+CREATE CONSTRAINT account_id IF NOT EXISTS
+FOR (a:Account) REQUIRE a.id IS UNIQUE;

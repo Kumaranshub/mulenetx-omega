@@ -1,0 +1,32 @@
+version: "3.9"
+
+services:
+
+  neo4j:
+    image: neo4j:5
+    ports:
+      - "7474:7474"
+      - "7687:7687"
+    environment:
+      - NEO4J_AUTH=neo4j/test
+    volumes:
+      - ./neo4j:/import
+
+  gateway:
+    build: ./services/gateway
+    ports:
+      - "8000:8000"
+    depends_on:
+      - neo4j
+
+  engine:
+    build: ./engine
+    depends_on:
+      - neo4j
+
+  dashboard:
+    build: ./dashboard
+    ports:
+      - "3000:3000"
+    depends_on:
+      - gateway
