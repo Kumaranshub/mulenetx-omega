@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+
+# Env
+.env
+
+# Build artifacts
+dist/
+build/
+
+# OS junk
+.DS_Store
+Thumbs.db
