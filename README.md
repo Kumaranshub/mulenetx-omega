@@ -32,10 +32,6 @@ Deployment Docker Compose orchestration (planned runtime environment)
 
 Research Motivation Financial crime increasingly operates through networked transaction flows rather than isolated anomalies. This project explores how graph analytics, physics-inspired modeling intuition, and distributed system design can be combined to create next-generation financial observability systems.
 
-Repository Structure
-
-mulenetx-omega/ ├── services/ # ingestion and API services ├── engine/ # probabilistic risk modeling ├── neo4j/ # graph schema definitions ├── dashboard/ # UI placeholder ├── data/ # synthetic data generator ├── docker-compose.yml └── README.md
-
 This project demonstrates: system design and service decomposition graph-based fraud detection approaches deployable architecture thinking application of mathematical modeling in security systems
 
 Author C.Kumaran,M.Sarvesh and Partha VJ Computer Science students specializing in Data Science Focus areas include applied machine learning, distributed systems, and graph analytics.
