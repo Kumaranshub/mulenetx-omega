@@ -1,0 +1,11 @@
+{
+  "total_accounts": 500,
+  "mule_pct": 0.08,
+  "business_pct": 0.1,
+  "total_transactions": 3000,
+  "seed": 42,
+  "out_dir": "data/runs/20260223_150557",
+  "stream": false,
+  "fraud_pattern": "star",
+  "snapshot_days": 0
+}
