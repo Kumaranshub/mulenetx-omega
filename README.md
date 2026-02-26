@@ -312,8 +312,11 @@ MIT — see [LICENSE](LICENSE) for details.
 ## Author
 
 **Kumaran** — [@Kumaranshub](https://github.com/Kumaranshub)
+**Sarvesh** — [@Sarvesh-Sarz](https://github.com/Sarvesh-Sarz)
+**Partha** — [@DatGod920](https://github.com/DatGod920)
 
 <div align="center">
 <br />
 <i>Built to outperform, designed to explain, engineered to adapt.</i>
 </div>
+
