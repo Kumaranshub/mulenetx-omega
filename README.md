@@ -320,4 +320,4 @@ MIT — see [LICENSE](LICENSE) for details.
 <i>Built to outperform, designed to explain, engineered to adapt.</i>
 </div>
 
-C.Kumaran, M.Sarvesh
+C.Kumaran, M.Sarvesh, Partha VJ
