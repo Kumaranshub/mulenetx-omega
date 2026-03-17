@@ -319,5 +319,3 @@ MIT — see [LICENSE](LICENSE) for details.
 <br />
 <i>Built to outperform, designed to explain, engineered to adapt.</i>
 </div>
-
-C.Kumaran, M.Sarvesh, Partha VJ and Mo Tawheed
