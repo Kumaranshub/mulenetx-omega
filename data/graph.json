@@ -1,0 +1,59 @@
+{
+  "nodes": [
+    {
+      "id": "ACC-8842",
+      "risk": 94,
+      "state": "MH"
+    },
+
+    {
+      "id": "ACC-3371",
+      "risk": 82,
+      "state": "DL"
+    },
+
+    {
+      "id": "ACC-5519",
+      "risk": 71,
+      "state": "GJ"
+    },
+
+    {
+      "id": "ACC-7703",
+      "risk": 63,
+      "state": "KA"
+    },
+
+    {
+      "id": "KNOWN-BAD",
+      "risk": 99,
+      "state": "MH"
+    }
+  ],
+
+  "edges": [
+    {
+      "source": "ACC-8842",
+      "target": "KNOWN-BAD",
+      "amount": 850000
+    },
+
+    {
+      "source": "ACC-3371",
+      "target": "ACC-8842",
+      "amount": 250000
+    },
+
+    {
+      "source": "ACC-5519",
+      "target": "ACC-3371",
+      "amount": 180000
+    },
+
+    {
+      "source": "ACC-7703",
+      "target": "KNOWN-BAD",
+      "amount": 320000
+    }
+  ]
+}
